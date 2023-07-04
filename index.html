@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project earyl 2023</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="center">
+        <header class="dialog">Rock Paper Siccors</header>
+        </div>
+    <div class="center">
+        <div>
+            <div style="justify-content: center; border: 4px solid red; width: 1000px;">
+                <div  class='center'>
+                    <div class="button">Computer</div>
+                    <div class="button">Human</div>
+                </div>
+                <div class="center">
+                    <img id="csrc" class='picSize' src="">
+                    <img id="hsrc" class="picSize" src="">
+                </div>
+                <div  class='center'>
+                <div class="scoreBoard" id="computer">0</div>
+                <div class="scoreBoard" id="human">0</div>
+                </div>
+                <div class="center">
+                    <button class="bttinside" onclick="countClicks3(); finalSay()">Siccors</button>
+                    <button class="bttinside" onclick="countClicks(); finalSay()">Rock</button>
+                    <button class="bttinside" onclick="countClicks2(); finalSay() ">Paper</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="dialog" id="dialog"></div>
+    </div>
+        <script src="add-content.js"></script>
+    </body>
+</html>
